@@ -1,6 +1,7 @@
 ---
-- name: Installs memcached
-  sudo: yes
-  apt: pkg=memcached state=latest
-  notify:
-    - restart memcached
+
+- include: common.yaml
+- include: install.yaml
+# - include: configure.yaml
+# - include: users.yaml
+# - include: post_install.yaml
