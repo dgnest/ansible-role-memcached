@@ -1,6 +1,6 @@
 ---
 - name: Installs Dependences
-  sudo: yes
-  apt: pkg=libmemcached-dev state=latest
+  become: true
+  apt: pkg=libmemcached-dev state=present
   notify:
     - restart memcached

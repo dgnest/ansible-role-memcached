@@ -1,9 +1,9 @@
 ---
 
 - name: start memcached
-  sudo: yes
+  become: true
   service: name=memcached state=started
 
 - name: restart memcached
-  sudo: yes
+  become: true
   service: name=memcached state=restarted
