@@ -55,9 +55,11 @@ Please see [CHANGELOG](CHANGELOG.md) for more information what has changed recen
 
 Please see [CONTRIBUTING](CONTRIBUTING.md) for details.
 
+
 ## Credits
 
-- [Luis Mayta][link-author]
+Made with :heart: ️:coffee:️ and :pizza: by [dgnest][link-company].
+
 - [All Contributors][link-contributors]
 
 [link-memcached]: https://memcached.org/
@@ -67,3 +69,4 @@ Please see [CONTRIBUTING](CONTRIBUTING.md) for details.
 
 [link-author]: https://github.com/luismayta
 [link-contributors]: AUTHORS
+[link-company]: https://github.com/dgnest
