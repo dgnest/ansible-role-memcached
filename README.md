@@ -1,9 +1,9 @@
 # Ansible Role Memcached
 
 <span class="badges" align="center">
-[![Build Status](https://travis-ci.org/hadenlabs/ansible-role-memcached.svg)](https://travis-ci.org/hadenlabs/ansible-role-memcached)
-[![Stories in Ready](https://badge.waffle.io/hadenlabs/ansible-role-memcached.svg?label=ready&title=Ready)](http://waffle.io/hadenlabs/ansible-role-memcached)
-[![GitHub issues](https://img.shields.io/github/issues/hadenlabs/ansible-role-memcached.svg)](https://github.com/hadenlabs/ansible-role-memcached/issues)
+[![Build Status](https://travis-ci.org/dgnest/ansible-role-memcached.svg)](https://travis-ci.org/dgnest/ansible-role-memcached)
+[![Stories in Ready](https://badge.waffle.io/dgnest/ansible-role-memcached.svg?label=ready&title=Ready)](http://waffle.io/dgnest/ansible-role-memcached)
+[![GitHub issues](https://img.shields.io/github/issues/dgnest/ansible-role-memcached.svg)](https://github.com/dgnest/ansible-role-memcached/issues)
 [![GitHub license](https://img.shields.io/github/license/mashape/apistatus.svg?style=flat-square)](LICENSE)
 </span>
 
@@ -44,7 +44,7 @@ To install a specific version:
 
     - hosts: servers
       roles:
-         - { role: hadenlabs.memcached }
+         - { role: dgnest.memcached }
 
 
 ## Changelog
@@ -55,9 +55,11 @@ Please see [CHANGELOG](CHANGELOG.md) for more information what has changed recen
 
 Please see [CONTRIBUTING](CONTRIBUTING.md) for details.
 
+
 ## Credits
 
-- [Luis Mayta][link-author]
+Made with :heart: ️:coffee:️ and :pizza: by [dgnest][link-company].
+
 - [All Contributors][link-contributors]
 
 [link-memcached]: https://memcached.org/
@@ -67,3 +69,4 @@ Please see [CONTRIBUTING](CONTRIBUTING.md) for details.
 
 [link-author]: https://github.com/luismayta
 [link-contributors]: AUTHORS
+[link-company]: https://github.com/dgnest
